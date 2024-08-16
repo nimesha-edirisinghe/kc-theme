@@ -1,0 +1,7 @@
+version: '3'
+services:
+  eps-keycloak-theme:
+    image: linearsquared.azurecr.io/or-kc-theme:latest
+    build:
+      context: .
+      dockerfile: Dockerfile
